@@ -7,7 +7,7 @@ const WithRouterSample = ({ location, match, history }) => {
       <div>
           <h4>location</h4>
           <textarea value={JSON.stringify(location, null, 2)}
-                    readonly
+                    readOnly
                     style={{
                         width: '300px',
                         height: '100px'

@@ -2,6 +2,7 @@ import React from 'react';
 import {Link, NavLink, Route} from "react-router-dom";
 import Profile from "./Profile";
 import WithRouterSample from "./WithRouterSample";
+import RouterHookSample from "./RouterHookSample";
 
 const profileData = {
     ninjasul: {
@@ -52,6 +53,7 @@ const Profiles = () => {
             />
             <Route path="/profiles/:id" component={Profile} />
             <WithRouterSample />
+            <RouterHookSample />
         </div>
     );
 };
